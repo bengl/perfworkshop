@@ -1,0 +1,32 @@
+{
+  "name": "perfworkshop",
+  "version": "1.0.0",
+  "description": "a performance workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bengl/perfworkshop.git"
+  },
+  "keywords": [
+    "performance",
+    "workshop"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bengl/perfworkshop/issues"
+  },
+  "homepage": "https://github.com/bengl/perfworkshop#readme",
+  "dependencies": {
+    "cli-profile": "^1.0.1",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "autocannon": "^2.2.0",
+    "pflames": "^1.0.0"
+  }
+}
